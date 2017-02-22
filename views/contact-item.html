@@ -1,0 +1,8 @@
+<div ng-click="focus(contact)" ng-class="haveFocus()">
+  {{contact.name}}
+</div>
+<div ng-if="contact.type=='Group'&&opened(contact)">
+  <div ng-repeat="item in contact.contacts" class="active">
+    <contact-item contact="item"></contact-item>
+  </div>
+</div>

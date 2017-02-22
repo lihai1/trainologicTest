@@ -1,0 +1,19 @@
+{
+  "name": "trainologictest",
+  "private": true,
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-server-livereload": "^1.9.2"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "appPath": "public",
+  "scripts": {
+    "start": "gulp webserver"
+  },
+  "dependencies": {
+    "angular": "^1.6.2",
+    "angular-route": "^1.6.2"
+  }
+}
